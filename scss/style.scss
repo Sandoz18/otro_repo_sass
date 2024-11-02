@@ -1,0 +1,19 @@
+$bg-color-principal:#ffffff;
+
+
+
+/******Nesting*****/
+.header{
+.img{
+width: 2rem;
+}
+.nav{
+    .ul{
+        display: flex;
+        .li{
+            text-decoration: none;
+        }
+    }
+}
+
+}
